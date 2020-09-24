@@ -18,6 +18,6 @@ public class TestController {
     @RequestMapping("/test1")
     public String test1(){
         List<String> list = new ArrayList();
-        return "呵呵呵hhh";
+        return "第一次部署";
     }
 }
