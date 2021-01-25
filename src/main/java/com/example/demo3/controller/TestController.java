@@ -15,9 +15,15 @@ import java.util.List;
 @RequestMapping("/test")
 public class TestController {
 
-    @RequestMapping("/test1")
-    public String test1(){
-        List<String> list = new ArrayList();
-        return "第4次部署";
-    }
+	@RequestMapping("/test1")
+	public String test1() {
+		List<String> list = new ArrayList();
+		return "第3次部署";
+	}
+
+	public static String aa() {
+		System.out.println("111111111");
+
+		return "123";
+	}
 }
