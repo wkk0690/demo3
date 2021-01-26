@@ -63,7 +63,7 @@
                     <!--                    <imageName>192.168.220.143:5000/${project.artifactId}:${project.version}</imageName>-->
                     <imageName>192.168.15.15:8889/demo/${project.artifactId}:${project.version}</imageName>
                     <baseImage>jdk1.8</baseImage>
-                    <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
+                    <entryPoint>["java", "-jar", "/${project.build.finalName}.jar", "--spring.profiles.active=prod"]</entryPoint>
                     <resources>
                         <resource>
                             <targetPath>/</targetPath>
