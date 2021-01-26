@@ -18,7 +18,7 @@ public class TestController {
 	@RequestMapping("/test1")
 	public String test1() {
 		List<String> list = new ArrayList();
-		return "hhhhh + 版本6";
+		return "hhhhh + 版本7";
 	}
 
 	public static String aa() {
