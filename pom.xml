@@ -62,7 +62,7 @@
                 <configuration>
                     <!--                    <imageName>192.168.220.143:5000/${project.artifactId}:${project.version}</imageName>-->
                     <imageName>192.168.220.143:8889/demo/${project.artifactId}:${project.version}</imageName>
-                    <baseImage>jdk1.8-prod</baseImage>
+                    <baseImage>jdk1.8</baseImage>
                     <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
                     <resources>
                         <resource>
